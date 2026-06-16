@@ -9,9 +9,7 @@ const OUTPUT = path.join(OUT_DIR, "culto-kids-2026-06-22-eu-treino-todo-dia.pptx
 const ARTIFACT_TOOL_FALLBACK =
   "/Users/rodrigosouza/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/.pnpm/@oai+artifact-tool@file+local-deps+-oai-artifact-tool-oai-artifact_tool-2.8.11.tgz/node_modules/@oai/artifact-tool/dist/artifact_tool.mjs";
 
-const vovoPath = path.join(ASSETS, "personagens", "vovo-docura.png");
 const vovoCoachPath = path.join(ASSETS, "gerados", "2026-06-15-o-tecnico-do-time", "vovo-docura-tecnica.png");
-const coachPath = path.join(ASSETS, "gerados", "2026-06-15-o-tecnico-do-time", "tecnico-infantil.png");
 const soccerBallPath = path.join(ASSETS, "gerados", "2026-06-08-deus-me-deu-um-proposito", "bola-futebol-nitida.png");
 
 const W = 1280;
@@ -89,7 +87,6 @@ function text(slide, value, x, y, w, h, size, opts = {}) {
     color: C.white,
     alignment: opts.align ?? "left",
     verticalAlignment: opts.valign ?? "middle",
-    autoFit: "shrinkText",
     wrap: "square",
     insets: {
       top: opts.margin ?? 4,
@@ -142,6 +139,10 @@ async function ball(slide, x, y, d) {
   addShape(slide, "ellipse", x, y, d, d, C.white, { line: { style: "solid", fill: C.darkBlue, width: 1 } });
 }
 
+async function vovoCoach(slide, x, y, w, h) {
+  await image(slide, vovoCoachPath, x, y, w, h, "Vovó Doçura vestida como técnica");
+}
+
 function title(slide, value, opts = {}) {
   text(slide, value, opts.x ?? 0.72, opts.y ?? 0.58, opts.w ?? 11.8, opts.h ?? 0.82, opts.size ?? 44, {
     align: opts.align ?? "left"
@@ -153,13 +154,13 @@ async function station(presentation, n, titleText, main, body, call, accent) {
   addBg(slide);
   addShape(slide, "ellipse", 0.78, 0.68, 1.10, 1.10, accent);
   text(slide, String(n), 1.08, 0.86, 0.50, 0.45, 34, { align: "center", margin: 0 });
-  title(slide, titleText, { x: 2.02, y: 0.72, w: 8.4, size: 44 });
+  title(slide, titleText, { x: 2.02, y: 0.72, w: 7.3, size: 44 });
   panel(slide, 0.92, 2.02, 11.45, 1.32);
-  text(slide, main, 1.25, 2.32, 10.8, 0.58, 38, { align: "center" });
-  text(slide, body, 1.10, 3.75, 10.9, 1.12, 32, { align: "center" });
+  text(slide, main, 1.15, 2.25, 8.20, 0.72, 38, { align: "center" });
+  text(slide, body, 1.08, 3.56, 8.15, 1.32, 32, { align: "center" });
   panel(slide, 1.05, 5.50, 11.15, 0.88, accent);
-  text(slide, call, 1.35, 5.70, 10.55, 0.38, 24, { align: "center" });
-  await ball(slide, 10.90, 0.76, 1.25);
+  text(slide, call, 1.18, 5.58, 8.35, 0.62, 26, { align: "center" });
+  await vovoCoach(slide, 9.95, 2.05, 2.25, 4.25);
 }
 
 async function cover(presentation) {
@@ -185,46 +186,46 @@ async function verse(presentation) {
   text(slide, "“Exercita-te pessoalmente\nna piedade.”", 1.15, 1.97, 7.80, 1.18, 44, { align: "center" });
   text(slide, "1 Timóteo 4:7", 1.15, 3.10, 7.80, 0.45, 26, { align: "center" });
   text(slide, "Treinar com Deus também é para todo dia.", 0.95, 4.35, 7.70, 1.05, 36, { align: "center" });
-  await ball(slide, 9.45, 1.45, 2.80);
+  await vovoCoach(slide, 9.58, 1.42, 2.25, 3.45);
   panel(slide, 9.10, 4.55, 3.20, 1.00, C.green);
-  text(slide, "Vamos memorizar juntos!", 9.28, 4.76, 2.84, 0.45, 24, { align: "center" });
+  text(slide, "Vamos memorizar juntos!", 9.18, 4.95, 3.05, 0.58, 26, { align: "center" });
   footer(slide, 2);
 }
 
 async function compare(presentation) {
   const slide = presentation.slides.add();
   addBg(slide);
-  title(slide, "Jogador Não Treina Só No Dia Do Jogo", { x: 0.72, y: 0.58, w: 8.7, size: 39 });
+  title(slide, "Jogador Não Treina Só No Dia Do Jogo", { x: 0.72, y: 0.58, w: 9.2, size: 39 });
   panel(slide, 0.78, 1.80, 4.35, 2.30, C.navy);
   text(slide, "No esporte:\ntreino diário fortalece o jogador.", 1.08, 2.15, 3.75, 1.35, 30, { align: "center" });
   panel(slide, 5.42, 1.80, 4.35, 2.30);
   text(slide, "Com Jesus:\nrotina com Deus fortalece o coração.", 5.72, 2.10, 3.75, 1.45, 30, { align: "center" });
   panel(slide, 1.05, 4.68, 8.45, 1.12, C.green);
-  text(slide, "Cristão também não cresce só indo ao culto.", 1.32, 4.92, 7.90, 0.48, 30, { align: "center" });
-  await image(slide, coachPath, 9.72, 0.78, 2.85, 5.95, "Técnico infantil");
+  text(slide, "Cristão também não cresce só indo ao culto.", 1.32, 4.90, 7.90, 0.58, 30, { align: "center" });
+  await vovoCoach(slide, 10.05, 1.22, 2.25, 4.45);
   footer(slide, 3);
 }
 
 async function hub(presentation) {
   const slide = presentation.slides.add();
   addBg(slide);
-  title(slide, "Nosso Treino Espiritual", { x: 0.72, y: 0.60, w: 7.1, size: 44 });
-  addShape(slide, "ellipse", 4.10, 2.51, 1.90, 1.90, C.yellow);
-  text(slide, "TODO\nDIA", 4.43, 3.04, 1.25, 0.80, 30, { align: "center" });
+  title(slide, "Nosso Treino Espiritual", { x: 1.00, y: 0.72, w: 7.1, size: 44 });
+  addShape(slide, "ellipse", 3.95, 2.48, 1.95, 1.95, C.yellow);
+  text(slide, "TODO\nDIA", 4.27, 3.00, 1.32, 0.86, 30, { align: "center" });
   const items = [
-    ["ORAÇÃO", 1.00, 1.82, C.green],
-    ["BÍBLIA", 3.08, 5.35, C.coral],
-    ["OBEDIÊNCIA", 6.78, 5.35, C.lilac],
-    ["ADORAÇÃO", 8.78, 1.82, C.pink],
-    ["BONDADE", 4.88, 1.18, C.navy]
+    ["ORAÇÃO", 0.88, 2.02, 1.62, C.green],
+    ["BÍBLIA", 2.58, 4.20, 1.62, C.coral],
+    ["OBEDIÊNCIA", 5.50, 4.20, 2.28, C.lilac],
+    ["ADORAÇÃO", 7.95, 2.02, 1.82, C.pink],
+    ["BONDADE", 4.78, 1.28, 1.62, C.navy]
   ];
-  items.forEach(([label, x, y, color]) => {
-    addShape(slide, "ellipse", x, y, 1.42, 1.42, color);
-    text(slide, label, x + 0.07, y + 0.43, 1.28, 0.45, 24, { align: "center", margin: 0 });
+  items.forEach(([label, x, y, w, color]) => {
+    addShape(slide, "ellipse", x, y, w, 1.62, color);
+    text(slide, label, x + 0.06, y + 0.52, w - 0.12, 0.58, 24, { align: "center", margin: 0 });
   });
   panel(slide, 0.82, 5.92, 8.95, 0.62, C.darkBlue);
-  text(slide, "Pequenos passos todos os dias nos aproximam de Deus.", 0.92, 6.00, 8.75, 0.36, 26, { align: "center", margin: 0 });
-  await image(slide, vovoPath, 10.15, 1.18, 2.80, 4.90, "Vovó Doçura");
+  text(slide, "Pequenos passos todos os dias nos aproximam de Deus.", 0.88, 6.08, 8.95, 0.62, 26, { align: "center", margin: 0 });
+  await vovoCoach(slide, 10.10, 2.02, 2.05, 4.20);
   footer(slide, 4);
 }
 
@@ -243,16 +244,16 @@ async function activity(presentation) {
     addShape(slide, "ellipse", x, 2.05, 1.05, 1.05, color);
     text(slide, num, x + 0.27, 2.24, 0.50, 0.38, 28, { align: "center", margin: 0 });
     panel(slide, x - 0.32, 3.28, 1.70, 0.68);
-    text(slide, label, x - 0.20, 3.45, 1.45, 0.30, 24, { align: "center", margin: 0 });
+    text(slide, label, x - 0.30, 3.40, 1.65, 0.48, 26, { align: "center", margin: 0 });
     if (i < steps.length - 1) text(slide, "→", x + 1.55, 2.32, 1.00, 0.60, 42, { align: "center", margin: 0 });
   });
   panel(slide, 1.15, 5.08, 8.90, 1.18, C.navy);
-  text(slide, "As crianças passam pelas estações em rotação e praticam uma ação simples em cada uma.", 1.48, 5.28, 8.25, 0.72, 26, { align: "center" });
+  text(slide, "As crianças passam pelas estações em rotação e praticam uma ação simples em cada uma.", 1.38, 5.20, 8.45, 0.88, 28, { align: "center" });
   await ball(slide, 10.28, 4.65, 1.75);
   footer(slide, 10);
 }
 
-function review(presentation) {
+async function review(presentation) {
   const slide = presentation.slides.add();
   addBg(slide);
   title(slide, "Revisão Do Time", { x: 0.72, y: 0.58, w: 8.2, size: 46 });
@@ -270,6 +271,7 @@ function review(presentation) {
   });
   panel(slide, 1.25, 5.85, 10.90, 0.80, C.green);
   text(slide, "Quem anda com Jesus se fortalece!", 1.55, 6.02, 10.30, 0.38, 28, { align: "center" });
+  await vovoCoach(slide, 9.95, 2.04, 2.25, 4.25);
   footer(slide, 11);
 }
 
@@ -302,7 +304,7 @@ async function main() {
   await station(presentation, 8, "Estação Adoração", "Louvar com a vida", "Adorar é cantar, agradecer\ne viver para agradar a Deus.", "Participação: qual louvor fala com seu coração?", C.lilac);
   await station(presentation, 9, "Estação Bondade", "Amar e ajudar", "Quem anda com Jesus aprende\na fazer o bem todos os dias.", "Missão: fazer uma bondade ainda hoje.", C.pink);
   await activity(presentation);
-  review(presentation);
+  await review(presentation);
   await close(presentation);
 
   const pptx = await PresentationFile.exportPptx(presentation);
