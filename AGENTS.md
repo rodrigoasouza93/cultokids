@@ -16,9 +16,10 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 - Publico: criancas de 4 a 13 anos.
 - Ambiente: apresentacao projetada em tela, possivelmente vista de longe.
 - Formato padrao: widescreen 16:9.
-- Fonte minima: 20 pt em todo texto visivel.
-- Cor do texto principal: preto.
-- Destaques principais: preto em negrito.
+- Fundo padrao para novos testes: azul estilo tela do Windows (`#0078D7`).
+- Fonte minima: 24 pt em todo texto visivel.
+- Cor do texto principal: branco.
+- Destaques principais: branco em negrito.
 - Evite blocos longos; cada slide deve ter uma ideia central.
 - Use linguagem simples, respeitosa e biblicamente fiel.
 - Nao use imagens assustadoras, violentas, confusas ou com excesso de detalhes.
@@ -29,7 +30,7 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 ## Estilo visual recomendado
 
 - Visual infantil, alegre e limpo.
-- Fundos claros com alto contraste.
+- Fundo azul padrao com alto contraste; use sombra discreta, faixa azul mais escura ou ajuste de composicao quando o texto branco perder legibilidade.
 - Paleta inspirada nos modelos: amarelo quente, azul, azul claro, rosa, coral, verde, lilas suave e branco.
 - Imagens grandes e relevantes para ajudar a memoria da crianca.
 - Elementos decorativos podem existir, mas nao devem competir com o texto.
@@ -39,7 +40,7 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 1. Preencher `templates/briefing-nova-apresentacao.md`.
 2. Criar roteiro com abertura, desenvolvimento, revisao e encerramento.
 3. Planejar os slides antes de gerar o PPTX.
-4. Revisar legibilidade: fonte >= 20 pt, preto, negrito nos destaques.
+4. Revisar legibilidade: fonte >= 24 pt, branco, negrito nos destaques.
 5. Revisar adequacao infantil e fidelidade biblica.
 6. Gerar ou editar a apresentacao final.
 

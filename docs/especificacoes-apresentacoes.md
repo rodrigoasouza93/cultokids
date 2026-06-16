@@ -18,6 +18,7 @@ Principais observacoes tecnicas:
 - Formato: widescreen 16:9 em todos os modelos.
 - Fontes predominantes: Comfortaa e Quicksand, ambas com aparencia amigavel para criancas.
 - Paletas recorrentes: preto, branco, amarelo, azul, azul claro, rosa, coral, verde e lilas.
+- Fundo padrao para novos testes: azul estilo tela do Windows (`#0078D7`), com texto branco em negrito nos destaques.
 - Estrutura recorrente: capa, apresentacao da Vovo Docura, contextualizacao, conteudo principal, revisao ou memorizacao e encerramento.
 - Padrao dos slides de conteudo: titulo, explicacao breve, pistas visuais, palavras-chave, versiculo e referencia.
 - Uso de imagens: presenca forte de imagens, muitas vezes em todos ou quase todos os slides.
@@ -25,7 +26,7 @@ Principais observacoes tecnicas:
 
 Ponto de melhoria identificado:
 
-- O modelo contem alguns textos menores que 20 pt. Para novas apresentacoes, isso deve ser corrigido: nenhum texto visivel deve ficar abaixo de 20 pt.
+- O modelo contem alguns textos menores que 20 pt. Para novas apresentacoes, isso deve ser corrigido com o novo padrao: nenhum texto visivel deve ficar abaixo de 24 pt.
 - Cores e imagens devem ser mantidas como parte essencial do estilo, mas sem reduzir contraste ou competir com o texto.
 
 ## Publico-alvo
@@ -39,15 +40,16 @@ Ponto de melhoria identificado:
 
 - Tamanho: 16:9.
 - Orientacao: paisagem.
-- Fundo: claro, preferencialmente branco, creme claro, azul muito claro ou rosa muito claro.
+- Fundo: azul estilo tela do Windows (`#0078D7`) como padrao para novos testes.
+- Areas de texto: usar o texto branco diretamente sobre o fundo azul quando houver bom contraste; se houver imagem ou detalhe competindo, usar faixa azul mais escura ou sombra discreta para preservar a leitura.
 - Cores: usar elementos coloridos em todos ou quase todos os slides.
 - Imagens: usar pelo menos uma imagem, personagem, icone ilustrativo ou cena biblica na maioria dos slides.
-- Texto principal: preto.
-- Fonte minima: 20 pt.
+- Texto principal: branco.
+- Fonte minima: 24 pt.
 - Titulos: 28 pt ou maior sempre que possivel.
-- Versiculos: idealmente 24 pt ou maior; minimo absoluto 20 pt.
+- Versiculos: 24 pt ou maior.
 - Palavras-chave: 24 pt ou maior, em negrito.
-- Rodapes e referencias biblicas: minimo 20 pt.
+- Rodapes e referencias biblicas: minimo 24 pt.
 
 ## Tipografia
 
@@ -66,14 +68,15 @@ Regras:
 
 Regras obrigatorias:
 
-- Texto principal em preto.
-- Destaques principais em preto e negrito.
+- Texto principal em branco.
+- Destaques principais em branco e negrito.
 - Evitar texto colorido como informacao essencial, especialmente em amarelo, rosa claro, azul claro ou lilas.
 
 Paleta recomendada para fundos, formas e detalhes:
 
 - Preto: `#000000`
 - Branco: `#FFFFFF`
+- Azul Windows para fundo padrao: `#0078D7`
 - Amarelo quente: `#EDC458`
 - Azul claro: `#48A6D6`
 - Azul muito claro: `#E1F3FC`
@@ -100,7 +103,7 @@ Diretrizes:
 - Em slides de conteudo, usar a imagem como pista visual da ideia principal.
 - Em slides de revisao, usar imagens para perguntas, associacoes e memoria.
 - Manter o texto sempre legivel sobre ou perto da imagem.
-- Se a imagem for muito colorida, colocar o texto em area clara, com bom espaco e contraste.
+- Se a imagem ou detalhes do fundo competirem com o texto, colocar o texto em area azul mais escura, sombra discreta ou faixa de apoio, com bom espaco e contraste.
 - Evitar imagens meramente decorativas quando uma imagem explicativa puder ser usada.
 - Evitar imagens escuras, assustadoras, violentas ou com muitos detalhes pequenos.
 
@@ -169,13 +172,14 @@ Diretrizes:
 
 Antes de finalizar uma apresentacao, verificar:
 
-- Todos os textos tem 20 pt ou mais.
-- Textos essenciais estao em preto.
+- Todos os textos tem 24 pt ou mais.
+- Textos essenciais estao em branco.
 - Titulos, versiculos e palavras-chave estao em negrito.
 - O slide nao depende de texto pequeno no rodape.
 - Cada slide tem uma ideia principal.
 - A maioria dos slides tem imagem ou elemento visual relevante.
 - A apresentacao usa cores alegres sem prejudicar contraste.
+- O fundo azul padrao foi usado ou a excecao foi justificada por legibilidade ou necessidade pedagogica.
 - O versiculo esta correto e com referencia.
 - As imagens sao apropriadas para criancas.
 - O contraste funciona em projetor.

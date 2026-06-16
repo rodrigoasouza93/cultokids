@@ -2,7 +2,9 @@
 
 Projeto para centralizar diretrizes, referencias e materiais reutilizaveis para criacao de apresentacoes do Culto Kids.
 
-O publico principal sao criancas de 4 a 13 anos em aulas sobre a Biblia e a Igreja Evangelica. As apresentacoes sao usadas em projetor, por isso a prioridade e leitura facil, texto preto, destaques em negrito e fonte grande.
+O publico principal sao criancas de 4 a 13 anos em aulas sobre a Biblia e a Igreja Evangelica. As apresentacoes sao usadas em projetor, por isso a prioridade e leitura facil, texto branco, destaques em negrito e fonte grande.
+
+Para os proximos testes, o fundo padrao dos slides deve ser azul estilo tela do Windows (`#0078D7`), usando texto branco e negrito nos destaques para aumentar o contraste.
 
 ## Estrutura
 
@@ -30,4 +32,4 @@ O publico principal sao criancas de 4 a 13 anos em aulas sobre a Biblia e a Igre
 
 ## Regra rapida de legibilidade
 
-Todo texto deve ter no minimo 20 pt. Textos principais devem ser pretos e em negrito quando forem titulo, versiculo, palavra-chave ou chamada de participacao.
+Todo texto deve ter no minimo 24 pt. Textos principais devem ser brancos e em negrito quando forem titulo, versiculo, palavra-chave ou chamada de participacao.

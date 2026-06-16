@@ -1,0 +1,9 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "build": "node gerar-pptx.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

@@ -16,7 +16,7 @@ Este documento resume os padroes observados nas apresentacoes usadas como exempl
 - Todas usam a Vovo Docura como personagem de apoio ou identidade da aula.
 - Todas combinam ensino biblico com frases curtas, palavras-chave e revisao.
 - As cores aparecem principalmente em fundos, formas, molduras, etiquetas e elementos decorativos.
-- O texto essencial tende a ficar em preto, o que e bom para projetor.
+- O texto essencial tende a ficar em preto nos modelos antigos. Para novos testes com fundo azul Windows, usar texto branco.
 
 ## Observacoes por arquivo
 
@@ -27,7 +27,7 @@ Este documento resume os padroes observados nas apresentacoes usadas como exempl
 - Paleta com azuis fortes, azul claro, branco, coral e rosa.
 - Fonte predominante: Quicksand, com uso tambem de Comfortaa.
 - Tem boa energia visual para aula infantil.
-- Contem alguns textos abaixo de 20 pt; novas apresentacoes devem corrigir isso.
+- Contem alguns textos abaixo de 20 pt; novas apresentacoes devem corrigir isso adotando fonte minima de 24 pt.
 
 ### 02 - Versiculos do Pentateuco
 
@@ -35,7 +35,7 @@ Este documento resume os padroes observados nas apresentacoes usadas como exempl
 - Usa imagens em todos os slides.
 - Fonte Comfortaa.
 - Paleta bem colorida: rosa, azul, laranja, amarelo, verde e roxo.
-- Melhor referencia de legibilidade entre os exemplos, com fonte minima observada de 20 pt.
+- Melhor referencia de legibilidade entre os exemplos, com fonte minima observada de 20 pt. Para novas apresentacoes, o minimo passa a ser 24 pt.
 
 ### 03 - Versiculos dos Livros Historicos
 
@@ -44,12 +44,12 @@ Este documento resume os padroes observados nas apresentacoes usadas como exempl
 - Fonte Comfortaa.
 - Paleta clara com preto, branco, amarelo, azul claro, rosa e lilas.
 - Usa muitas imagens nos slides de conteudo.
-- Contem alguns textos abaixo de 20 pt; novas apresentacoes devem corrigir isso.
+- Contem alguns textos abaixo de 20 pt; novas apresentacoes devem corrigir isso adotando fonte minima de 24 pt.
 
 ## Conclusao para novas apresentacoes
 
 As proximas apresentacoes devem manter tres pilares:
 
-1. Legibilidade para projetor: texto preto, negrito nos destaques e fonte minima de 20 pt.
-2. Atratividade infantil: cores vivas, imagens grandes e personagem acolhedora.
+1. Legibilidade para projetor: texto branco, negrito nos destaques e fonte minima de 24 pt.
+2. Atratividade infantil: fundo azul estilo tela do Windows (`#0078D7`) como padrao de teste, cores vivas, imagens grandes e personagem acolhedora.
 3. Clareza pedagogica: uma ideia por slide, linguagem simples, versiculos com referencia e revisao ativa.

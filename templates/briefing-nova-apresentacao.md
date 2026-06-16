@@ -33,15 +33,17 @@ Preencha este arquivo antes de criar uma nova apresentacao.
 - Imagens obrigatorias:
 - Personagens:
 - Cores ou tema visual:
+- Usar fundo azul Windows (`#0078D7`) como padrao? Se nao, justificar:
 - Ideias de imagens para cada parte da aula:
 - Elementos coloridos desejados:
 - Observacoes sobre o projetor ou sala:
 
 ## Checklist antes de gerar
 
-- Texto preto.
+- Texto branco.
 - Destaques em negrito.
-- Fonte minima de 20 pt.
+- Fonte minima de 24 pt.
+- Fundo azul Windows (`#0078D7`) ou excecao justificada.
 - Slides em 16:9.
 - Linguagem infantil.
 - Cores alegres.

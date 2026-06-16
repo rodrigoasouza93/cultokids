@@ -14,4 +14,4 @@ Esta pasta guarda materiais usados como base para novas apresentacoes.
 - Observe o uso de cores e imagens para criar uma experiencia infantil mais atrativa.
 - Nao edite os arquivos originais desta pasta.
 - Ao criar uma nova apresentacao, salve uma nova copia fora de `referencias/`.
-- Se uma referencia tiver texto menor que 20 pt, corrija esse ponto na nova apresentacao.
+- Se uma referencia tiver texto menor que 24 pt, corrija esse ponto na nova apresentacao.
