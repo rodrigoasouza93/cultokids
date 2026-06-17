@@ -18,6 +18,9 @@
 - Revisar se a criança consegue entender o slide sem explicação longa.
 - Usar cores alegres e elementos visuais para tornar a apresentação atrativa.
 - Usar imagens relevantes em todos ou quase todos os slides.
+- Manter o PPTX final editavel, com texto e elementos principais como objetos editaveis.
+- Renderizar e revisar todos os slides antes de considerar a apresentacao pronta.
+- Registrar fontes, versiculos, assets usados e pendencias de QA.
 
 ## Fortemente recomendadas
 
@@ -43,6 +46,8 @@
 - Slides muito brancos, vazios ou sem nenhum elemento visual infantil.
 - Tabelas densas.
 - Rodapés pequenos com informação essencial.
+- Slides finais como imagens unicas de tela inteira, salvo pedido explicito.
+- Entregar apresentacao sem QA visual.
 
 ## Padrão de revisão para agentes
 
@@ -57,3 +62,5 @@ Ao revisar ou criar uma apresentação, registrar:
 - Assets usados.
 - Uso de cores e imagens.
 - Pendências ou riscos de legibilidade.
+- Ferramentas usadas para gerar, importar ou revisar a apresentacao.
+- Resultado do QA visual e correcoes feitas.

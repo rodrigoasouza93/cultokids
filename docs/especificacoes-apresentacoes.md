@@ -4,6 +4,12 @@
 
 Criar apresentacoes infantis para aulas biblicas do Culto Kids, com visual alegre, leitura facil em projetor e linguagem adequada para criancas de 4 a 13 anos.
 
+## Fluxo oficial
+
+Antes de criar, editar ou revisar uma apresentacao, siga tambem `docs/fluxo-desenvolvimento-apresentacoes.md`.
+
+O entregavel padrao deve ser um PPTX editavel, com texto, formas, imagens e outros elementos mantidos como objetos editaveis sempre que possivel. A apresentacao deve ser renderizada e revisada visualmente antes de ser considerada pronta.
+
 ## Analise da apresentacao modelo
 
 Arquivos analisados:
@@ -184,3 +190,6 @@ Antes de finalizar uma apresentacao, verificar:
 - As imagens sao apropriadas para criancas.
 - O contraste funciona em projetor.
 - Ha momentos de participacao infantil.
+- O PPTX final e editavel.
+- Todos os slides foram renderizados e revisados visualmente.
+- Fontes, versiculos e assets usados foram registrados no roteiro ou QA.

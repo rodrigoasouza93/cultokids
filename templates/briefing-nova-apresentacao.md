@@ -38,6 +38,16 @@ Preencha este arquivo antes de criar uma nova apresentacao.
 - Elementos coloridos desejados:
 - Observacoes sobre o projetor ou sala:
 
+## Ferramentas e entrega
+
+- Entrega principal em PPTX editavel?
+- Precisa tambem de Google Slides?
+- Publicar na pasta oficial do Drive?
+- Precisa de PDF ou imagens para revisao?
+- Assets novos devem ser gerados?
+- Pasta prevista para assets gerados:
+- Fontes externas permitidas ou materiais do professor:
+
 ## Checklist antes de gerar
 
 - Texto branco.
@@ -50,3 +60,6 @@ Preencha este arquivo antes de criar uma nova apresentacao.
 - Imagens relevantes na maioria dos slides.
 - Uma ideia principal por slide.
 - Versiculos com referencia.
+- PPTX final editavel.
+- Renderizacao e QA visual planejados.
+- Fontes, assets e ferramentas registrados.

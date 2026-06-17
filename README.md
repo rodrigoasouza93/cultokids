@@ -10,7 +10,7 @@ Para os proximos testes, o fundo padrao dos slides deve ser azul estilo tela do 
 
 - `docs/`: especificacoes, guias editoriais e analises de modelos.
 - `regras/`: regras objetivas para criacao e revisao de slides.
-- `templates/`: modelos de briefing e roteiros para novas apresentacoes.
+- `templates/`: modelos de briefing, QA e roteiros para novas apresentacoes.
 - `assets/`: imagens aprovadas para uso nas aulas.
 - `referencias/`: apresentacoes e materiais usados como exemplo visual ou pedagogico.
 
@@ -29,6 +29,24 @@ Para os proximos testes, o fundo padrao dos slides deve ser azul estilo tela do 
 4. Usar cores alegres e infantis para tornar a aula atrativa.
 5. Manter cada slide com uma ideia principal.
 6. Criar ritmo infantil: visual alegre, texto curto, repeticao didatica e convite a participacao.
+
+## Fluxo padrao de desenvolvimento
+
+O fluxo oficial esta em `docs/fluxo-desenvolvimento-apresentacoes.md`.
+
+Pasta oficial para guardar apresentacoes criadas no Google Drive:
+
+- https://drive.google.com/drive/folders/1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo?usp=drive_link
+
+Resumo:
+
+1. Preencher o briefing.
+2. Criar roteiro e plano de slides.
+3. Gerar PPTX editavel com o fluxo principal de apresentacoes.
+4. Usar assets aprovados ou gerar novos assets em `assets/gerados/`.
+5. Renderizar todos os slides e fazer QA visual.
+6. Registrar fontes, assets usados e pendencias.
+7. Importar para Google Slides na pasta oficial do Drive apenas quando houver necessidade de colaboracao ou entrega nesse formato.
 
 ## Regra rapida de legibilidade
 

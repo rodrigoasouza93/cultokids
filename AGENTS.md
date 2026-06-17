@@ -7,9 +7,10 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 ## Antes de criar ou editar apresentacoes
 
 1. Leia `docs/especificacoes-apresentacoes.md`.
-2. Leia `regras/regras-de-slides.md`.
-3. Use os arquivos em `referencias/` apenas como modelo e referencia; nao altere os originais.
-4. Use os assets aprovados em `assets/`, especialmente `assets/personagens/vovo-docura.png` quando a aula pedir a personagem.
+2. Leia `docs/fluxo-desenvolvimento-apresentacoes.md`.
+3. Leia `regras/regras-de-slides.md`.
+4. Use os arquivos em `referencias/` apenas como modelo e referencia; nao altere os originais.
+5. Use os assets aprovados em `assets/`, especialmente `assets/personagens/vovo-docura.png` quando a aula pedir a personagem.
 
 ## Regras obrigatorias
 
@@ -40,9 +41,10 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 1. Preencher `templates/briefing-nova-apresentacao.md`.
 2. Criar roteiro com abertura, desenvolvimento, revisao e encerramento.
 3. Planejar os slides antes de gerar o PPTX.
-4. Revisar legibilidade: fonte >= 24 pt, branco, negrito nos destaques.
-5. Revisar adequacao infantil e fidelidade biblica.
-6. Gerar ou editar a apresentacao final.
+4. Criar o PPTX editavel usando o fluxo principal de `docs/fluxo-desenvolvimento-apresentacoes.md`.
+5. Renderizar todos os slides e revisar legibilidade: fonte >= 24 pt, branco, negrito nos destaques.
+6. Revisar adequacao infantil, fidelidade biblica, fontes, assets e QA visual, usando `templates/qa-apresentacao.md` como base.
+7. Importar para Google Slides somente quando isso for pedido ou necessario para colaboracao.
 
 ## Criterios de revisao
 
@@ -53,3 +55,4 @@ Uma apresentacao so deve ser considerada pronta quando:
 - A historia ou ensino biblico esta correto.
 - As imagens ajudam a explicar ou memorizar.
 - Ha momentos de pergunta, repeticao ou participacao.
+- O PPTX final e editavel e passou por renderizacao/QA visual.
