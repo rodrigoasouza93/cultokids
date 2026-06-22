@@ -12,8 +12,10 @@ Observação de calendário: o roteiro recebido está marcado como dia 21/06, ma
 
 Versículo-base da aula:
 
-> Exercita-te pessoalmente na piedade.
+> Fique longe de historinhas inventadas. O melhor mesmo é treinar para ser mais parecido com Jesus!
 > 1 Timóteo 4:7
+
+Observação: texto adaptado para a linguagem infantil, conforme orientação da aula.
 
 ## Ideia central
 
@@ -48,7 +50,7 @@ Circuito de treino espiritual: criar estações de oração, Bíblia, louvor e b
 
 ## Pontos de participação
 
-- Repetir o versículo de 1 Timóteo 4:7.
+- Repetir a frase adaptada de 1 Timóteo 4:7.
 - Perguntar pelo que as crianças podem orar hoje.
 - Pedir exemplos de obediência em casa, na escola e na igreja.
 - Perguntar qual louvor ajuda a lembrar de Deus.

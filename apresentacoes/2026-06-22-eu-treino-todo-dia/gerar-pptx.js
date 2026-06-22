@@ -183,9 +183,9 @@ async function verse(presentation) {
   addBg(slide);
   title(slide, "Versículo-base", { x: 0.78, y: 0.80, w: 6.0, size: 42 });
   panel(slide, 0.78, 1.70, 8.55, 2.05);
-  text(slide, "“Exercita-te pessoalmente\nna piedade.”", 1.15, 1.97, 7.80, 1.18, 44, { align: "center" });
-  text(slide, "1 Timóteo 4:7", 1.15, 3.10, 7.80, 0.45, 26, { align: "center" });
-  text(slide, "Treinar com Deus também é para todo dia.", 0.95, 4.35, 7.70, 1.05, 36, { align: "center" });
+  text(slide, "“Fique longe de historinhas inventadas.\nO melhor mesmo é treinar para ser\nmais parecido com Jesus!”", 1.05, 1.72, 8.00, 1.66, 38, { align: "center" });
+  text(slide, "1 Timóteo 4:7", 1.15, 3.42, 7.80, 0.48, 32, { align: "center" });
+  text(slide, "Treinar com Deus também é para todo dia.", 0.95, 4.42, 7.70, 1.05, 36, { align: "center" });
   await vovoCoach(slide, 9.58, 1.42, 2.25, 3.45);
   panel(slide, 9.10, 4.55, 3.20, 1.00, C.green);
   text(slide, "Vamos memorizar juntos!", 9.18, 4.95, 3.05, 0.58, 26, { align: "center" });
@@ -299,7 +299,7 @@ async function main() {
   await compare(presentation);
   await hub(presentation);
   await station(presentation, 5, "Estação Oração", "Falar com Deus", "Conte a Deus o que sente.\nPeça ajuda. Agradeça.", "Pergunta: pelo que podemos orar hoje?", C.yellow);
-  await station(presentation, 6, "Estação Bíblia", "Ouvir a Palavra", "A Bíblia mostra quem Deus é\ne como devemos viver.", "Desafio: repetir 1 Timóteo 4:7 juntos.", C.green);
+  await station(presentation, 6, "Estação Bíblia", "Ouvir a Palavra", "A Bíblia mostra quem Deus é\ne como devemos viver.", "Desafio: repetir a frase do versículo juntos.", C.green);
   await station(presentation, 7, "Estação Obediência", "Praticar o que Deus ensina", "Obedecer é treinar o coração\npara escolher o caminho certo.", "Exemplo: obedecer em casa, na igreja e na escola.", C.coral);
   await station(presentation, 8, "Estação Adoração", "Louvar com a vida", "Adorar é cantar, agradecer\ne viver para agradar a Deus.", "Participação: qual louvor fala com seu coração?", C.lilac);
   await station(presentation, 9, "Estação Bondade", "Amar e ajudar", "Quem anda com Jesus aprende\na fazer o bem todos os dias.", "Missão: fazer uma bondade ainda hoje.", C.pink);
@@ -309,6 +309,7 @@ async function main() {
 
   const pptx = await PresentationFile.exportPptx(presentation);
   await pptx.save(OUTPUT);
+  await fs.rm(`${OUTPUT}.inspect.ndjson`, { force: true });
   console.log(`Apresentação gerada: ${OUTPUT}`);
 }
 
