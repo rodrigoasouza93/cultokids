@@ -1,0 +1,23 @@
+{
+  "apresentacao": {
+    "slug": "2026-06-15-o-tecnico-do-time",
+    "data": "2026-06-15",
+    "titulo": "O técnico do time"
+  },
+  "fonte_oficial": {
+    "tipo": "repositorio",
+    "roteiro": "roteiro.md",
+    "gerador": "gerar-pptx.js",
+    "artefato": "culto-kids-2026-06-15-o-tecnico-do-time.pptx"
+  },
+  "publicacao_drive": {
+    "pasta_id": "1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo",
+    "arquivo_id": "1IZkic7tkiUfCxyRkJI58j1rAOzwyiBi0",
+    "url": "https://docs.google.com/presentation/d/1IZkic7tkiUfCxyRkJI58j1rAOzwyiBi0/edit?usp=drivesdk",
+    "formato": "pptx",
+    "publicado_em": "2026-06-16T16:52:45.803Z",
+    "versao_git": ""
+  },
+  "estado": "verificacao-pendente",
+  "observacoes": "Arquivo existente no Drive mapeado. Confirme o commit de origem antes de marcar como publicado."
+}

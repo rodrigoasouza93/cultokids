@@ -98,6 +98,7 @@ Use planilhas somente quando ajudarem a organizar aulas maiores ou series. Uma p
 8. Corrigir problemas visuais ou pedagogicos.
 9. Registrar QA e fontes.
 10. Entregar o PPTX final e, se solicitado, publicar ou importar a versao Google Slides na pasta oficial do Drive.
+11. Quando houver publicacao no Drive, criar ou atualizar `publicacao.json` e registrar o commit Git correspondente.
 
 ## Registro minimo por apresentacao
 
@@ -110,6 +111,8 @@ Cada pasta em `apresentacoes/<data-slug>/` deve ter:
 - registro de QA, preferencialmente em `qa.md` usando `templates/qa-apresentacao.md` ou secao equivalente no `roteiro.md`.
 
 Quando houver assets gerados, a pasta correspondente em `assets/gerados/` deve ter nomes claros e reutilizaveis.
+
+Quando a apresentacao for publicada no Google Drive, a mesma pasta tambem deve conter `publicacao.json`, baseado em `templates/publicacao.json`. O manifesto vincula a fonte oficial no GitHub ao artefato remoto e sinaliza edicoes mobile pendentes de reconciliacao. Consulte `docs/operacao-remota-e-drive.md`.
 
 ## Fontes confiaveis
 

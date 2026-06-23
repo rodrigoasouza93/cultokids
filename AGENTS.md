@@ -45,6 +45,7 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 5. Renderizar todos os slides e revisar legibilidade: fonte >= 24 pt, branco, negrito nos destaques.
 6. Revisar adequacao infantil, fidelidade biblica, fontes, assets e QA visual, usando `templates/qa-apresentacao.md` como base.
 7. Importar para Google Slides somente quando isso for pedido ou necessario para colaboracao.
+8. Para qualquer apresentacao publicada no Drive, criar e manter `publicacao.json` com o vinculo da versao remota. Leia `docs/operacao-remota-e-drive.md` antes de publicar ou reconciliar edicoes feitas pelo celular.
 
 ## Criterios de revisao
 

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://cultokids.local/schema/publicacao-v1.json",
+  "apresentacao": {
+    "slug": "AAAA-MM-DD-titulo-da-aula",
+    "data": "AAAA-MM-DD",
+    "titulo": "Título da aula"
+  },
+  "fonte_oficial": {
+    "tipo": "repositorio",
+    "roteiro": "roteiro.md",
+    "gerador": "gerar-pptx.js",
+    "artefato": "culto-kids-AAAA-MM-DD-titulo-da-aula.pptx"
+  },
+  "publicacao_drive": {
+    "pasta_id": "1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo",
+    "arquivo_id": "",
+    "url": "",
+    "formato": "pptx",
+    "publicado_em": "",
+    "versao_git": ""
+  },
+  "estado": "rascunho",
+  "observacoes": "Preencha o arquivo_id e a url somente depois de publicar no Google Drive."
+}

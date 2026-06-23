@@ -48,6 +48,12 @@ Resumo:
 6. Registrar fontes, assets usados e pendencias.
 7. Importar para Google Slides na pasta oficial do Drive apenas quando houver necessidade de colaboracao ou entrega nesse formato.
 
+## Trabalho pelo telefone e publicacao
+
+O GitHub e a fonte oficial das apresentacoes; o Google Drive e o ponto de acesso e colaboracao pelo telefone. Cada apresentacao nova deve incluir um `publicacao.json`, baseado em `templates/publicacao.json`, que registra a versao publicada no Drive e seu commit de origem.
+
+Leia `docs/operacao-remota-e-drive.md` antes de publicar, editar pelo Google Slides ou reconciliar uma alteracao feita no celular.
+
 ## Regra rapida de legibilidade
 
 Todo texto deve ter no minimo 24 pt. Textos principais devem ser brancos e em negrito quando forem titulo, versiculo, palavra-chave ou chamada de participacao.

@@ -1,0 +1,23 @@
+{
+  "apresentacao": {
+    "slug": "2026-06-22-eu-treino-todo-dia",
+    "data": "2026-06-22",
+    "titulo": "Eu treino todo dia"
+  },
+  "fonte_oficial": {
+    "tipo": "repositorio",
+    "roteiro": "roteiro.md",
+    "gerador": "gerar-pptx.js",
+    "artefato": "culto-kids-2026-06-22-eu-treino-todo-dia.pptx"
+  },
+  "publicacao_drive": {
+    "pasta_id": "1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo",
+    "arquivo_id": "1GzqElo_PdHbuzZxZLm9PQYI6qyxxk7vx",
+    "url": "https://docs.google.com/presentation/d/1GzqElo_PdHbuzZxZLm9PQYI6qyxxk7vx/edit?usp=drivesdk",
+    "formato": "pptx",
+    "publicado_em": "2026-06-16T21:05:12.411Z",
+    "versao_git": ""
+  },
+  "estado": "verificacao-pendente",
+  "observacoes": "Arquivo existente no Drive mapeado. Confirme o commit de origem antes de marcar como publicado."
+}

@@ -1,0 +1,23 @@
+{
+  "apresentacao": {
+    "slug": "2026-06-29-jogando-limpo",
+    "data": "2026-06-29",
+    "titulo": "Jogando Limpo"
+  },
+  "fonte_oficial": {
+    "tipo": "repositorio",
+    "roteiro": "roteiro.md",
+    "gerador": "gerar-pptx.js",
+    "artefato": "culto-kids-2026-06-29-jogando-limpo.pptx"
+  },
+  "publicacao_drive": {
+    "pasta_id": "1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo",
+    "arquivo_id": "1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ",
+    "url": "https://docs.google.com/presentation/d/1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ/edit?usp=drivesdk",
+    "formato": "google-slides",
+    "publicado_em": "2026-06-17T02:13:49.740Z",
+    "versao_git": ""
+  },
+  "estado": "verificacao-pendente",
+  "observacoes": "Cópia nativa do Google Slides existente no Drive. Antes de uma nova geração, confirme se houve edição pelo celular e reconcilie as mudanças na fonte oficial."
+}
