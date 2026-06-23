@@ -43,6 +43,8 @@ Preencha este arquivo antes de criar uma nova apresentacao.
 - Entrega principal em PPTX editavel?
 - Precisa tambem de Google Slides?
 - Publicar na pasta oficial do Drive?
+- Qual formato sera publicado no Drive (`pptx` ou `google-slides`)?
+- Precisa permitir edicao pelo telefone? Se sim, quem reconcilia a alteracao com a fonte oficial?
 - Precisa de PDF ou imagens para revisao?
 - Assets novos devem ser gerados?
 - Pasta prevista para assets gerados:
@@ -63,3 +65,4 @@ Preencha este arquivo antes de criar uma nova apresentacao.
 - PPTX final editavel.
 - Renderizacao e QA visual planejados.
 - Fontes, assets e ferramentas registrados.
+- `publicacao.json` previsto quando houver publicacao no Drive.

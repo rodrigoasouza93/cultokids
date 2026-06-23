@@ -8,6 +8,8 @@ Criar apresentacoes infantis para aulas biblicas do Culto Kids, com visual alegr
 
 Antes de criar, editar ou revisar uma apresentacao, siga tambem `docs/fluxo-desenvolvimento-apresentacoes.md`.
 
+Quando houver publicacao no Google Drive, compartilhamento ou possibilidade de edicao pelo celular, siga tambem `docs/operacao-remota-e-drive.md`. O repositorio (`roteiro.md`, `gerar-pptx.js` e assets) e a fonte oficial; o PPTX e o Google Slides sao versoes publicadas.
+
 O entregavel padrao deve ser um PPTX editavel, com texto, formas, imagens e outros elementos mantidos como objetos editaveis sempre que possivel. A apresentacao deve ser renderizada e revisada visualmente antes de ser considerada pronta.
 
 ## Analise da apresentacao modelo
@@ -193,3 +195,5 @@ Antes de finalizar uma apresentacao, verificar:
 - O PPTX final e editavel.
 - Todos os slides foram renderizados e revisados visualmente.
 - Fontes, versiculos e assets usados foram registrados no roteiro ou QA.
+- Quando publicada, a apresentacao tem `publicacao.json` com ID/URL do Drive, formato, estado e commit Git de origem.
+- Nenhuma edicao mobile pendente ficou fora do roteiro e do gerador.

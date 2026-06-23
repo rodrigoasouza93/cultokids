@@ -21,6 +21,8 @@
 - Manter o PPTX final editavel, com texto e elementos principais como objetos editaveis.
 - Renderizar e revisar todos os slides antes de considerar a apresentacao pronta.
 - Registrar fontes, versiculos, assets usados e pendencias de QA.
+- Para uma apresentacao publicada no Drive, manter `publicacao.json` com o vinculo remoto, o estado e o commit Git de origem.
+- Antes de gerar ou publicar novamente, reconciliar qualquer alteracao feita diretamente no Google Slides pelo celular.
 
 ## Fortemente recomendadas
 
@@ -64,3 +66,5 @@ Ao revisar ou criar uma apresentação, registrar:
 - Pendências ou riscos de legibilidade.
 - Ferramentas usadas para gerar, importar ou revisar a apresentacao.
 - Resultado do QA visual e correcoes feitas.
+- Estado da publicacao no Drive e link do artefato, quando houver.
+- Confirmacao de que nao ha `edicao-mobile-pendente` sem reconciliacao na fonte oficial.

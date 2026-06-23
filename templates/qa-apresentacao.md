@@ -58,6 +58,17 @@ Use este modelo antes de considerar uma apresentacao pronta.
 - Se sim, o deck importado foi conferido por leitura de volta?
 - Ferramentas usadas:
 
+## Publicacao e continuidade
+
+- A apresentacao foi publicada no Drive?
+- Formato publicado (`pptx` ou `google-slides`):
+- URL do artefato publicado:
+- `publicacao.json` foi atualizado?
+- Commit Git de origem registrado no manifesto:
+- Houve edicao pelo celular?
+- Se sim, a mudanca foi reconciliada no roteiro e no gerador?
+- Estado da publicacao:
+
 ## Pendencias
 
 - Pendencias criticas:

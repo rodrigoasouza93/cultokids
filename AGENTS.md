@@ -9,8 +9,9 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 1. Leia `docs/especificacoes-apresentacoes.md`.
 2. Leia `docs/fluxo-desenvolvimento-apresentacoes.md`.
 3. Leia `regras/regras-de-slides.md`.
-4. Use os arquivos em `referencias/` apenas como modelo e referencia; nao altere os originais.
-5. Use os assets aprovados em `assets/`, especialmente `assets/personagens/vovo-docura.png` quando a aula pedir a personagem.
+4. Leia `docs/operacao-remota-e-drive.md` quando a apresentacao puder ser publicada, compartilhada ou editada pelo celular.
+5. Use os arquivos em `referencias/` apenas como modelo e referencia; nao altere os originais.
+6. Use os assets aprovados em `assets/`, especialmente `assets/personagens/vovo-docura.png` quando a aula pedir a personagem.
 
 ## Regras obrigatorias
 
@@ -27,6 +28,9 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 - Versiculos devem indicar livro, capitulo e versiculo.
 - Use cores e imagens em todos ou quase todos os slides para manter a apresentacao atrativa para criancas.
 - Cores devem aparecer em fundos, formas, molduras, etiquetas e detalhes; nao use cor clara em texto essencial.
+- `roteiro.md` e `gerar-pptx.js` sao a fonte oficial. O PPTX e o Google Slides sao artefatos publicados e nao devem ser a unica origem de uma mudanca.
+- Toda apresentacao publicada no Drive deve ter `publicacao.json` na sua pasta, com o ID, a URL, o formato e o estado da publicacao.
+- Se um Google Slides tiver sido editado pelo celular, marque `edicao-mobile-pendente` no manifesto e reconcilie a mudanca no roteiro e no gerador antes de publicar outra versao.
 
 ## Estilo visual recomendado
 
@@ -46,6 +50,7 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 6. Revisar adequacao infantil, fidelidade biblica, fontes, assets e QA visual, usando `templates/qa-apresentacao.md` como base.
 7. Importar para Google Slides somente quando isso for pedido ou necessario para colaboracao.
 8. Para qualquer apresentacao publicada no Drive, criar e manter `publicacao.json` com o vinculo da versao remota. Leia `docs/operacao-remota-e-drive.md` antes de publicar ou reconciliar edicoes feitas pelo celular.
+9. Registrar no manifesto o commit Git que originou a versao publicada e concluir o QA antes de mudar o estado para `publicado`.
 
 ## Criterios de revisao
 

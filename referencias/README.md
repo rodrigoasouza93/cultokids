@@ -15,3 +15,4 @@ Esta pasta guarda materiais usados como base para novas apresentacoes.
 - Nao edite os arquivos originais desta pasta.
 - Ao criar uma nova apresentacao, salve uma nova copia fora de `referencias/`.
 - Se uma referencia tiver texto menor que 24 pt, corrija esse ponto na nova apresentacao.
+- Nao publique nem edite estas referencias pelo celular; as versoes de trabalho e publicacao devem ficar em `apresentacoes/` e seguir `docs/operacao-remota-e-drive.md`.
