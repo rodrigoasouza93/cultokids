@@ -8,7 +8,7 @@
 - Total de slides: 12.
 - Público: crianças de 4 a 13 anos.
 - Revisor: Codex.
-- Data da revisão: 16/06/2026.
+- Data da revisão: 23/06/2026.
 
 ## Conteúdo bíblico
 
@@ -32,12 +32,12 @@
 ## Visual e assets
 
 - Assets aprovados usados: `assets/personagens/vovo-docura.png`, `assets/personagens/vovo-docura-slide.png`.
-- Assets gerados usados: `assets/gerados/2026-06-08-deus-me-deu-um-proposito/bola-futebol-nitida.png`.
+- Assets gerados usados: `assets/gerados/2026-06-15-o-tecnico-do-time/vovo-docura-tecnica.png` como Vovó Doçura juíza e `assets/gerados/2026-06-08-deus-me-deu-um-proposito/bola-futebol-nitida.png`.
 - Pasta de assets gerados: não foram criados novos assets.
 - Imagens são adequadas para crianças? Sim.
 - Imagens ajudam a explicar ou memorizar? Sim, especialmente cartões verde/vermelho, bola e personagem.
 - Há imagens escuras, assustadoras ou confusas? Não.
-- Observações: a Vovó Doçura foi usada em moldura arredondada porque o PNG possui fundo claro.
+- Observações: a Vovó Doçura juíza foi usada nos slides 1, 6 e 12 para reforçar o tema de jogar limpo; ela aparece com apito e prancheta.
 
 ## Participação infantil
 
@@ -52,14 +52,15 @@
 - PPTX final é editável? Sim, feito com textos, formas e imagens editáveis.
 - Todos os slides foram renderizados? Sim.
 - Foi gerado PDF ou imagens para revisão? Imagens PNG e folha de contato foram geradas no workspace temporário.
-- Google Slides foi necessário? Sim, após aprovação da apresentação.
-- Link do Google Slides: `https://docs.google.com/presentation/d/1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ/edit?usp=drivesdk`.
-- Se sim, o deck importado foi conferido por leitura de volta? Sim, com 12 slides e MIME nativo `application/vnd.google-apps.presentation`.
+- Google Slides foi necessário? Não para a nova versão; o PPTX validado foi publicado diretamente no Drive.
+- Link da versão reconstruída: `https://docs.google.com/presentation/d/1q8B6flvNBVvXfRI6gvPY9cB9q4C4_zgV/edit?usp=drivesdk&ouid=106195478324173090755&rtpof=true&sd=true`.
+- A cópia nativa anterior foi preservada somente como histórico? Sim: `1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ`.
+- A versão publicada foi conferida por leitura de volta? Sim, com MIME `application/vnd.openxmlformats-officedocument.presentationml.presentation`, tamanho de 2.828.653 bytes e pasta de entregas prontas.
 - Ferramentas usadas: `@oai/artifact-tool` via script `gerar-pptx.js`.
 
 ## Pendências
 
 - Pendências críticas: nenhuma.
 - Pendências menores: revisão pastoral/professor do texto bíblico antes da aula.
-- Correções realizadas: ajuste de fonte mínima, contraste dos chips amarelos, numeração dos slides e textos dos cartões da atividade.
-- Status final: aprovado e salvo na pasta oficial do Google Drive.
+- Correções realizadas: ajuste de fonte mínima, contraste dos chips amarelos, numeração dos slides, textos dos cartões da atividade, etiqueta do tema, altura dos cartões do slide de fruto do Espírito e substituição da Vovó Doçura pela versão juíza nos slides 1, 6 e 12.
+- Status final: PPTX reconstruído, revisado visualmente e publicado. Aguardando commit de origem no `publicacao.json` para mudar o estado para `publicado`.

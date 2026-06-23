@@ -50,6 +50,12 @@ const C = {
 
 const vovoPath = path.join(ASSETS, "personagens", "vovo-docura.png");
 const vovoSlidePath = path.join(ASSETS, "personagens", "vovo-docura-slide.png");
+const vovoJuizaPath = path.join(
+  ASSETS,
+  "gerados",
+  "2026-06-15-o-tecnico-do-time",
+  "vovo-docura-tecnica.png",
+);
 const ballPath = path.join(
   ASSETS,
   "gerados",
@@ -154,6 +160,9 @@ async function addImage(slide, filePath, position, alt, fit = "contain", options
 }
 
 async function addVovo(slide, position) {
+  if (await addImage(slide, vovoJuizaPath, position, "Vovó Doçura como juíza", "contain")) {
+    return;
+  }
   if (
     await addImage(slide, vovoSlidePath, position, "Vovó Doçura", "contain", {
       geometry: "roundRect",
@@ -219,10 +228,11 @@ function addCard(slide, label, body, position, fill, iconText = "") {
   );
 }
 
-function addChip(slide, text, left, top, width, fill) {
-  addPanel(slide, { left, top, width, height: 58 }, fill, { borderRadius: 28 });
+function addChip(slide, text, left, top, width, fill, options = {}) {
+  const height = options.height ?? 58;
+  addPanel(slide, { left, top, width, height }, fill, { borderRadius: height / 2 });
   const color = fill === C.yellow || fill === C.cream ? C.navy : C.white;
-  addText(slide, text, { left: left + 8, top: top + 6, width: width - 16, height: 42 }, 27, {
+  addText(slide, text, { left: left + 8, top: top + 6, width: width - 16, height: height - 12 }, options.fontSize ?? 27, {
     align: "center",
     color,
     insets: { top: 0, right: 4, bottom: 0, left: 4 },
@@ -247,7 +257,7 @@ function addFooter(slide, index) {
 async function cover(presentation) {
   const slide = presentation.slides.add();
   addBackground(slide);
-  addChip(slide, "UMA JOGADA DO MESTRE", 72, 54, 360, C.green);
+  addChip(slide, "UMA JOGADA DO MESTRE", 72, 54, 500, C.green);
   addText(slide, "29/06/2026", { left: 72, top: 128, width: 310, height: 44 }, 30);
   addText(slide, "JOGANDO\nLIMPO", { left: 70, top: 190, width: 650, height: 160 }, 66);
   addPanel(slide, { left: 72, top: 392, width: 660, height: 88 }, C.navy);
@@ -453,7 +463,7 @@ function greenCard(presentation) {
     ["fidelidade", 842, 326, C.lilac],
   ];
   for (const [word, left, top, color, width] of words) {
-    addChip(slide, word, left, top, width ?? 210, color);
+    addChip(slide, word, left, top, width ?? 210, color, { height: 84 });
   }
   addPanel(slide, { left: 292, top: 516, width: 780, height: 76 }, C.darkBlue);
   addText(
@@ -634,7 +644,7 @@ async function writeTextFiles() {
       "Roteiro-base: referencias/roteiros/2026-06-uma-jogada-do-mestre/roteiro-dia-28-06.jpeg",
       "Versiculo principal: 1 Joao 2:6, fornecido no roteiro-base.",
       "Texto de apoio: Galatas 5:22-23, citado como apoio sobre fruto do Espirito.",
-      "Assets: assets/personagens/vovo-docura.png, assets/personagens/vovo-docura-slide.png, assets/gerados/2026-06-08-deus-me-deu-um-proposito/bola-futebol-nitida.png.",
+      "Assets: assets/gerados/2026-06-15-o-tecnico-do-time/vovo-docura-tecnica.png (Vovó Doçura como juíza), assets/personagens/vovo-docura.png, assets/personagens/vovo-docura-slide.png, assets/gerados/2026-06-08-deus-me-deu-um-proposito/bola-futebol-nitida.png.",
       "Nenhum asset externo novo foi usado.",
       "",
     ].join("\n"),

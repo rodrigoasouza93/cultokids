@@ -148,7 +148,7 @@ Exemplos:
 - Fundo padrão: azul Windows `#0078D7`.
 - Texto principal: branco, com destaques em negrito.
 - Elementos: bola, campo, apito, cartões verde/vermelho, troféu e crianças jogando futebol.
-- Personagem: usar `assets/personagens/vovo-docura.png` se houver slide de boas-vindas, revisão ou encerramento.
+- Personagem: usar `assets/gerados/2026-06-15-o-tecnico-do-time/vovo-docura-tecnica.png` como Vovó Doçura juíza, com apito e prancheta, nos slides em que ela aparecer.
 - Evitar: imagens agressivas, faltas violentas, rostos assustados ou competição com clima de briga.
 
 ## Ferramentas e entrega

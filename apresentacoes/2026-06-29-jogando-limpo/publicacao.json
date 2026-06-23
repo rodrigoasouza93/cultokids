@@ -11,13 +11,13 @@
     "artefato": "culto-kids-2026-06-29-jogando-limpo.pptx"
   },
   "publicacao_drive": {
-    "pasta_id": "1SWf0gtLBg7CgS0hJ2XX0BhUjRCZyFWUo",
-    "arquivo_id": "1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ",
-    "url": "https://docs.google.com/presentation/d/1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ/edit?usp=drivesdk",
-    "formato": "google-slides",
-    "publicado_em": "2026-06-17T02:13:49.740Z",
-    "versao_git": ""
+    "pasta_id": "16zZ2EWZ0e0hFdN_L5JZzZ5NkVYsbetD6",
+    "arquivo_id": "1q8B6flvNBVvXfRI6gvPY9cB9q4C4_zgV",
+    "url": "https://docs.google.com/presentation/d/1q8B6flvNBVvXfRI6gvPY9cB9q4C4_zgV/edit?usp=drivesdk&ouid=106195478324173090755&rtpof=true&sd=true",
+    "formato": "pptx",
+    "publicado_em": "2026-06-23T21:02:02.245Z",
+    "versao_git": "pendente-de-commit"
   },
   "estado": "verificacao-pendente",
-  "observacoes": "Cópia nativa do Google Slides existente no Drive. Antes de uma nova geração, confirme se houve edição pelo celular e reconcilie as mudanças na fonte oficial."
+  "observacoes": "PPTX recriado a partir do roteiro e do gerador oficiais em 23/06/2026, com QA visual dos 12 slides. A Vovó Doçura como juíza (apito e prancheta) foi aplicada nos slides 1, 6 e 12. A cópia nativa anterior do Google Slides (ID 1xQhNGCv0ff_ZMgY-rsinbRDtpojKyD0Xdao53wuoqyQ) foi preservada como histórico e não deve receber novas edições. Registre o commit de origem antes de marcar como publicado."
 }
