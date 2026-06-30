@@ -24,6 +24,7 @@ Este projeto organiza a criacao de apresentacoes infantis para aulas biblicas do
 - Destaques principais: branco em negrito.
 - Evite blocos longos; cada slide deve ter uma ideia central.
 - Use linguagem simples, respeitosa e biblicamente fiel.
+- Todo texto final em português do Brasil (`pt-BR`) deve seguir a ortografia oficial, incluindo acentuação correta, cedilha e grafia completa em textos visíveis, PDFs, slides, roteiros, templates e metadados.
 - Nao use imagens assustadoras, violentas, confusas ou com excesso de detalhes.
 - Versiculos devem indicar livro, capitulo e versiculo.
 - Use cores e imagens em todos ou quase todos os slides para manter a apresentacao atrativa para criancas.
