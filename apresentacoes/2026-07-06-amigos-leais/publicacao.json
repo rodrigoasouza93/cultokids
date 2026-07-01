@@ -16,8 +16,8 @@
     "url": "https://docs.google.com/presentation/d/1x-_Qrzcku3dKhjX2YiY9On6KpbyYGsiK/edit?usp=drivesdk&ouid=106195478324173090755&rtpof=true&sd=true",
     "formato": "pptx",
     "publicado_em": "2026-07-01T14:36:40.083Z",
-    "versao_git": "pendente-de-commit"
+    "versao_git": "c59c0a8"
   },
-  "estado": "verificacao-pendente",
-  "observacoes": "PPTX criado a partir do roteiro e do gerador oficiais em 01/07/2026, com QA visual dos 12 slides e teste de overflow aprovado. Registre o commit de origem antes de marcar como publicado."
+  "estado": "publicado",
+  "observacoes": "PPTX criado a partir do roteiro e do gerador oficiais em 01/07/2026, com QA visual dos 12 slides e teste de overflow aprovado. Versão publicada originada no commit c59c0a8."
 }
