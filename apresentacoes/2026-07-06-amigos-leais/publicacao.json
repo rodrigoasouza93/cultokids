@@ -1,0 +1,23 @@
+{
+  "apresentacao": {
+    "slug": "2026-07-06-amigos-leais",
+    "data": "2026-07-06",
+    "titulo": "Amigos Leais"
+  },
+  "fonte_oficial": {
+    "tipo": "repositorio",
+    "roteiro": "roteiro.md",
+    "gerador": "gerar-pptx.js",
+    "artefato": "culto-kids-2026-07-06-amigos-leais.pptx"
+  },
+  "publicacao_drive": {
+    "pasta_id": "16zZ2EWZ0e0hFdN_L5JZzZ5NkVYsbetD6",
+    "arquivo_id": "1x-_Qrzcku3dKhjX2YiY9On6KpbyYGsiK",
+    "url": "https://docs.google.com/presentation/d/1x-_Qrzcku3dKhjX2YiY9On6KpbyYGsiK/edit?usp=drivesdk&ouid=106195478324173090755&rtpof=true&sd=true",
+    "formato": "pptx",
+    "publicado_em": "2026-07-01T14:36:40.083Z",
+    "versao_git": "pendente-de-commit"
+  },
+  "estado": "verificacao-pendente",
+  "observacoes": "PPTX criado a partir do roteiro e do gerador oficiais em 01/07/2026, com QA visual dos 12 slides e teste de overflow aprovado. Registre o commit de origem antes de marcar como publicado."
+}
